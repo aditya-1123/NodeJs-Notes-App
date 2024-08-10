@@ -1,15 +1,21 @@
-:root{    
-    --background-color: #67a8b5;
-    --bs-primary-rgb: black;
-}
+:root {
+    --background-color: skyblue;
+    --bs-primary-rgb: #12296c;
+  }
 
 .custom-padding {
     padding-left: 10rem;
     padding-right: 10rem;
+    font-size: 1.2rem;
+}
+
+.custom-padding2 {
+    padding-left: 8rem;
+    padding-right: 8rem;
 }
 
 body{
-    font-family: 'poppins',sans-serif;
+    font-family: 'Poppins',sans-serif;
     background-color: var(--background-color);
     color: var(--bs-primary-rgb);
     font-weight: 300;
@@ -17,7 +23,7 @@ body{
     background-image: url(../img/noise-bg.png);
 }
 h1,h2,h3,h4,h5,h6{
-    font-family: 'unbounded',cursive;
+    font-family: 'Unbounded',cursive;
     font-weight: 800;
 }
 
@@ -31,20 +37,20 @@ h1,h2,h3,h4,h5,h6{
 }
 .btn-primary {
     --bs-btn-color: #fff;
-    --bs-btn-bg: #0d6efd;
+    --bs-btn-bg: var(--bs-primary-rgb);
     --bs-btn-border-color: var(--bs-primary-rgb);
-    --bs-btn-hover-color: var(--bs-primary-rgb);
+    --bs-btn-hover-color: #fff;
     --bs-btn-hover-bg: #0043a8;
     --bs-btn-hover-border-color: #0043a8;
     --bs-btn-focus-shadow-rgb: 49, 132, 253;
     --bs-btn-active-color: #fff;
     --bs-btn-active-bg: var(--bs-primary-rgb);
-    --bs-btn-active-border-color: #0a53be;
+    --bs-btn-active-border-color:  var(--bs-primary-rgb);
     --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
     --bs-btn-disabled-color: #fff;
     --bs-btn-disabled-bg: var(--bs-primary-rgb);
-    --bs-btn-disabled-border-color: #0d6efd;
-}
+    --bs-btn-disabled-border-color: var(--bs-primary-rgb);
+}   
 
 .btn-outline-primary {
     --bs-btn-color: #0d6efd;
@@ -57,7 +63,7 @@ h1,h2,h3,h4,h5,h6{
     --bs-btn-active-bg: var(--bs-primary-rgb);
     --bs-btn-active-border-color:var(--bs-primary-rgb);
     --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-    --bs-btn-disabled-color: #0d6efd;
+    --bs-btn-disabled-color: var(--bs-primary-rgb);
     --bs-btn-disabled-bg: transparent;
     --bs-btn-disabled-border-color: var(--bs-primary-rgb);
     --bs-gradient: none;
@@ -92,6 +98,4 @@ h1,h2,h3,h4,h5,h6{
     right: -50px;
     bottom:-30px;
 }
-
-
 

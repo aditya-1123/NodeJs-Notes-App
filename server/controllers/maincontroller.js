@@ -26,3 +26,25 @@ exports.about=async(req,res)=>{
     res.render('about',locals);
 
 }
+
+exports.features=async(req,res)=>{
+  
+    const locals={
+        title:'about-NodeJs notes',
+        description:'free Nodejs notes app'
+    };
+ 
+    res.render('features',locals);
+
+}
+
+exports.faqs=async(req,res)=>{
+  
+    const locals={
+        title:'about-NodeJs notes',
+        description:'free Nodejs notes app'
+    };
+ 
+    res.render('faqs',locals);
+
+}
